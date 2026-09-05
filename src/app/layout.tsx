@@ -7,6 +7,7 @@ import { InstrumentProvider } from '@/context/InstrumentContext';
 import { AuthProvider } from '@/context/AuthContext';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.msirindia.com'),
   title: 'MSIR INDIA | Next-Gen Industrial Calibration & Testing Experience (2026)',
   description: 'Awwwards-level interactive web experience for MSIR INDIA - NABL ISO/IEC 17025 accredited calibration, testing, & industrial metrology laboratory in Chennai.',
   keywords: ['MSIR INDIA', 'Calibration Chennai', 'NABL Calibration Lab', 'Electrical Calibration', 'Pressure Testing', 'Thermal Metrology', 'Industrial Testing'],
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     title: 'MSIR INDIA | Next-Gen Calibration & Testing',
     description: 'Cinematic, interactive web application for MSIR INDIA Precision Calibration Laboratories.',
     type: 'website',
+    url: 'https://www.msirindia.com',
   },
 };
 
